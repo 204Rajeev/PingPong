@@ -140,13 +140,13 @@ class _HomePageState extends State<HomePage> {
       }
 
       if (ballXDirection == direction.RIGHT) {
-        print(
-            'iam make the ball move right______________________________________________________________:$ballX and the horFac:$horFac');
+        //print(
+           // 'iam make the ball move right______________________________________________________________:$ballX and the horFac:$horFac');
         ballX += 0.005 * horFac;
       }
       if (ballXDirection == direction.LEFT) {
-        print(
-            'iam make the ball move left______________________________________________________________:$ballX and the horFac:$horFac');
+        // print(
+        //     'iam make the ball move left______________________________________________________________:$ballX and the horFac:$horFac');
         ballX -= 0.005 * horFac;
       }
     });
